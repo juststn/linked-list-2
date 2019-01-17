@@ -12,6 +12,7 @@ class Student{
   Student();
   ~Student();
 
+  //functions
   string getFN();
   string getLN();
   int getID();
@@ -20,6 +21,7 @@ class Student{
   void printStudent();
   
 private:
+  //variables
   char firstname[100];
   char lastname[100];
   int id;
