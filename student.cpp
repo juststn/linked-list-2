@@ -65,4 +65,4 @@ void Student::printStudent(){
     cout.setf(ios::fixed);
     cout.precision(2);
     cout<<gpa<<endl;
-// }
+}
